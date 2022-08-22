@@ -10,6 +10,8 @@
 
 <body>
   Hello world
+  
+  
   <script src="script.js"></script>
 
  <!--
@@ -17,7 +19,39 @@
   page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
   teal, blue, blurple, magenta, pink!
   -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+  <!--<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>--> 
+  <script>
+    /**
+ * This script adds a "Made by" badge to your website when seen in full-browser view
+ */
+
+ function main() {
+    // Suppress in ReplView
+    if (window.location.hostname.split('.')[1] === 'id') return;
+  
+    const badge = `
+    <style>
+    
+    #site-badge {
+      position: absolute;
+      cursor: pointer;
+      bottom: 16px;
+      right: 16px;
+      z-index: 1000;
+    }
+    a:link {
+  text-decoration: none;
+}
+    </style>
+    
+    <a id="site-badge" href="https://www.erickouassi.com/" target="_blank">Made by @eric_kouassi</a>
+    `;
+  
+    document.body.insertAdjacentHTML('beforeend', badge);
+  }
+  
+  main();
+  </script>
 </body>
 
 </html>
