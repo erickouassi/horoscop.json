@@ -1,6 +1,6 @@
-# horoscop.json
+# json-horoscope
 
-### Scrapes daily horoscope reading from multiple sources
+### Scrapes daily horoscope reading
 
 #### Source 1
 
