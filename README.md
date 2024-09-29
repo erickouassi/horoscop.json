@@ -4,7 +4,7 @@
 
 #### Source 1
 
-json api url: https://jsonapi.erickouassi.repl.co/1e8deULWSbpg84d8KkEtAsDuyUkioZbHT8ThBQUopx6o/zodiac
+json api url: https://sheet2api.vercel.app/api?id=1e8deULWSbpg84d8KkEtAsDuyUkioZbHT8ThBQUopx6o&sheet=zodiac  
 
 #### Source 2
 
